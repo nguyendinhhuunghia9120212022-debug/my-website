@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html lang="vi">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NGUYỄN ĐÌNH HỮU NGHĨA</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Yêu cầu 25: Title (50-60 ký tự, có tên trang + họ tên) -->
+    <title>Trang chủ - NGUYỄN ĐÌNH HỮU NGHĨA — Giới thiệu thông tin cá nhân</title>
+    
+    <!-- Yêu cầu 26: Meta description (150-160 ký tự, bắt đầu bằng mô tả) -->
+    <meta name="description" content="Xem thông tin cá nhân, sở thích, quê quán và
+     cách liên hệ của NGUYỄN ĐÌNH HỮU NGHĨA — sinh viên năm 2 ngành Kỹ thuật phần mềm.">
+    
+    <!-- Google Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-inter"> <!-- Sửa lỗi thiếu dấu > ở đây luôn bạn -->
+    <header>
         <h1>NGUYỄN ĐÌNH HỮU NGHĨA</h1>
-        <h2>thông tin cá nhân</h2>
-        <p>Họ và tên: </strong>NGUYỄN ĐÌNH HỮU NGHĨA</strong></p>
-        <p> Quê quán: Quảng Trị</p>
-        <p> Ngành học: Kỹ thuật phần mềm</p>
-        <p> Năm học: Năm 2</p>
-        <h2>Sở thích</h2>
-        <ul>
-            <li>lập trình</li>
-            <li>chơi game</li>
-            <li>ngủ</li>
-        </ul>
-        <h2>Mục tiêu học kỳ này</h2>
-            <ol>
-                <li>Hoàn thành tốt các môn học</li>
-                <li>Nâng cao được kỹ năng lập trình môn cấu trúc dữ liệu</li>
-                <li>Hoàn thành báo cáo tốt nghiệp đạt kết quả tốt</li>
-            </ol>
-            <a href="#">Bấm vào đây để liên kết</a>
-    </body>
-</html> 
+        <p>Website giới thiệu cá nhân của tôi</p>
+    </header>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="contact.html">Liên hệ</a>
+        <a href="https://github.com/nguyendinhhuunghia9120212022-debug/my-website"
+           target="_blank"
+           rel="noopener">
+           GitHub
+        </a>
+    </nav>
+    <main>
+        <section class="card">
+            <h2>Thông tin cá nhân</h2>
+            <p>Họ và tên: <span class="highlight">NGUYỄN ĐÌNH HỮU NGHĨA</span></p>
+            <p>Quê quán: <span class="highlight">Quảng Trị</span></p>
+            <p>Ngành học: Kỹ thuật phần mềm</p>
+            <p>Năm học: Năm 2</p>
+        </section>
+        <section class="card">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Lập trình</li>
+                <li>Chơi game</li>
+                <li>Ngủ</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <address>
+            Email: <a href="mailto:nguyendinhhuunghia91.2021.2022@gmail.com">nguyendinhhuunghia91.2021.2022@gmail.com</a><br>
+            SĐT: <a href="tel:0702336554">0702336554</a>
+        </address>
+        <p>&copy; 2026 NGUYỄN ĐÌNH HỮU NGHĨA</p>
+        <p>Ngày cập nhật: <time datetime="2026-06-01">01/06/2026</time></p>
+    </footer>
+</body>
+</html>
